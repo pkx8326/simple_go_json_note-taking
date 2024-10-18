@@ -9,7 +9,7 @@ When run, the program will ask the user to input a note title. After pressing th
 After inputting the note content, the program will show a message to confirm the note title and its content as given by the user. Then, the program will attempt to save the information as a ```json``` file. The saved ```json``` file contains three fields: ```title```, ```content```, and ```created_at```. The timestampt in the field ```created_at``` will be generated automatically by the program.
 
 ### Code structure
-The codes of this projects are organized into the code for the main program (stored in the ```main.go`` file) and the codes for struct methods to display and save user inputs stored in the ```note.go``` file as a separate package.
+The codes of this projects are organized into the code for the main program (stored in the ```main.go``` file) and the codes for struct methods to display and save user inputs stored in the ```note.go``` file as a separate package.
 
 ### Program flow
 
